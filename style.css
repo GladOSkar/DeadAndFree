@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=Limelight);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+    font-family: Montserrat;
+}
+
+body {
+    background: #fff;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    background: #fff;
+    //box-shadow: 0px 0px 16px 0px;
+}
+
+footer {
+    width: 100vw;
+    height: 100px;
+    margin-left: 50%;
+    background: #aaa;
+    transform: translateX(-50%)
+}
+
+footer > section {
+    width: 800px;
+    margin: auto;
+}
+
+#navwrapper {
+    width: 100vw;
+    background: #eee;
+    margin-left: 50%;
+    height: 42px;
+    box-shadow: 0px 0px 4px 0px;
+    font-size: 20px;
+    transform: translateX(-50%);
+}
+
+nav {
+    width: 720px;
+    margin: auto;
+}
+
+nav a {
+    width: auto;
+    display: inline-block;
+    height: 100%;
+    padding: 9px 24px;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: #000;
+
+}
+
+nav a:hover {
+    background: #ddd;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: Montserrat;
+}
+
+#content {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+section {
+    margin: 42px;
+}
+
+header {
+    margin: 0px;
+    padding: 8px;
+}
+
+.platte {
+    position: relative;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    vertical-align: text-top;
+    z-index: 0;
+    transition: all .1s ease-in-out;
+}
+
+.platte * {
+    transition: all .1s ease-in-out;
+}
+
+.platte.card {
+    position: fixed;
+    display: block;
+    box-shadow: 0px 0px 4px 0px;
+    background: #eee;
+    margin: 0px;
+    z-index: 4;
+    text-align: left;
+    vertical-align: top;
+}
+
+.platte.card .cover {
+    margin: 42px;
+    display: inline-block;
+    float: left;
+}
+
+.platte.card .cover:after {
+    left: 0px;
+}
+
+.platte.card .desc {
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 42px;
+    padding: 0px;
+    float: left;
+    width: auto;
+}
+
+.desc {
+    display: block;
+    width: 100%;
+}
+
+.artist, .album {
+    display: block;
+}
+
+.artist {
+    font-weight: bold;
+    margin: 4px;
+}
+
+.album {
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.cover {
+    position: relative;
+    height: 160px;
+    width: 160px;
+    margin: 32px auto 8px;
+    box-shadow: 0px 0px 4px 0px;
+}
+
+.cover:after {
+    position: absolute;
+    content: "";
+    background: #444;
+    height: 160px;
+    width: 160px;
+    left: 16px;
+    border-radius: 80px;
+    z-index: -1;
+    box-shadow: 0px 0px 2px 0px;
+    transition: all .2s ease-in-out;
+}
+
+.platte:hover:not(.card) .cover:after {
+    left: 26px;
+}
+
+.platte:hover:not(.card) {
+    cursor: pointer;
+    background: #eee;
+}
+
+#logo {
+    position: relative;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 120px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 774px;
+    height: 300px;
+    border: 4px solid black;
+    border-radius: 16px;
+}
+
+#logo .dot {
+    position: absolute;
+    margin: 8px;
+    height: 8px;
+    width: 8px;
+    background: #000;
+    border-radius: 4px;
+}
+
+#logo .dot.t {top: 0px;}
+#logo .dot.b {bottom: 0px;}
+#logo .dot.l {left: 0px;}
+#logo .dot.r {right: 0px;}

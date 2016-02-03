@@ -35,6 +35,8 @@ var database = {
     ]
 }
 
+var navWidths = [];
+
 function getOffset(el) {
     var _x = 0;
     var _y = 0;
@@ -105,6 +107,13 @@ function paintPlatten() {
     database.lieblingssongs.forEach(function(platte){
         paintPlatte(platte,lieblingssongs);
     });
+}
+
+function getNavWidths() {
+	var nodes = document.querySelectorAll("nav a");
+	for(var i;i<nodes.length;i++){
+		navWidths[i] = nodes[i].offsetWidth;
+	}
 }
 
 paintPlatten();

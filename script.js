@@ -72,10 +72,10 @@ function expand(platte) {
     card.style.transition = "all .4s ease-in-out";
     setTimeout(function(){
         card.style.boxShadow = "0px 0px 160px 0px";
-        card.style.left = "42px";
-        card.style.top = "42px";
-        card.style.width = "calc(100% - 84px)";
-        card.style.height = "calc(100% - 84px)";
+        card.style.left = "84px";
+        card.style.top = "84px";
+        card.style.width = "calc(100% - 168px)";
+        card.style.height = "calc(100% - 168px)";
     },10);
 }
 
@@ -117,3 +117,29 @@ function getNavWidths() {
 }
 
 paintPlatten();
+
+function smoothScroll(did) {
+	var start = window.pageYOffset;
+	var dest = document.getElementById(did).offsetTop;
+	if (dest > (document.body.offsetHeight - window.innerHeight)) {
+		dest = (document.body.offsetHeight - window.innerHeight)
+	}
+	var prg = 0;
+
+	var diff = (dest - start);
+
+	window.scrollTo(0,start);
+	var scroll = setInterval(function(){
+		prg += 0.02;
+		window.scrollTo(0,start+(easeinout(prg)*diff));
+	}, 20);
+
+	setTimeout(function(){
+		clearInterval(scroll);
+	}, 1000)
+
+}
+
+function easeinout(x) {
+	return ((x*x)/((x*x)+((1-x)*(1-x))));
+}

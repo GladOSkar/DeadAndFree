@@ -35,7 +35,23 @@ var database = {
     ]
 }
 
-var navWidths = [];
+var english = {
+	records: "RECORDS",
+	about: "ABOUT US",
+	lorem: "LOREM IPSUM",
+	contact: "CONTACT",
+	location: "LOCATION"
+}
+
+var german = {
+	records: "PLATTEN",
+	about: "ÜBER UNS",
+	lorem: "LOREM IPSUM",
+	contact: "KONTAKT",
+	location: "LAGE"
+}
+
+var lang = english;
 
 function getOffset(el) {
     var _x = 0;
@@ -116,8 +132,6 @@ function getNavWidths() {
 	}
 }
 
-paintPlatten();
-
 function smoothScroll(did) {
 	var start = window.pageYOffset;
 	var dest = document.getElementById(did).offsetTop;
@@ -142,4 +156,15 @@ function smoothScroll(did) {
 
 function easeinout(x) {
 	return ((x*x)/((x*x)+((1-x)*(1-x))));
+}
+
+function updateCB(ele) {
+	ele.innerHTML = ele.innerHTML.replace(/{{\s*[\w\.]+\s*}}/gi, function (f) {
+		var args = f.slice(2, -2).split(".");
+		if (args[0] == "lang") {
+			return lang[args[1]];
+		} else {
+
+		};
+	});
 }

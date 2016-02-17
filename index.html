@@ -6,6 +6,7 @@
 		<meta name="theme-color" content="blue">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="script.js"></script>
 	</head>
 	<body>
         <main>
@@ -18,13 +19,14 @@
                     <div class="dot b r"></div>
                 </div>
             </header>
-            <nav>
-                <a onclick="smoothScroll('records')">TOP RECORDS</a>
-                <a onclick="smoothScroll('about')">ABOUT US</a>
-                <a onclick="smoothScroll('???')">???</span>
-                <a onclick="smoothScroll('contact')">CONTACT US</a>
-                <a onclick="smoothScroll('location')">LOCATION</a>
+            <nav onload ="updateCB(this)">
+                <a onclick="smoothScroll('records')">{{lang.records}}</a>
+                <a onclick="smoothScroll('about')">{{lang.about}}</a>
+                <a onclick="smoothScroll('lorem')">{{lang.lorem}}</a>
+                <a onclick="smoothScroll('contact')">{{lang.contact}}</a>
+                <a onclick="smoothScroll('location')">{{lang.location}}</a>
             </nav>
+			<script>updateCB(document.querySelector("nav"));</script>
 			<section id="records">
             	<div id="content">
             	    <div id="lieblingsplatten">
@@ -34,26 +36,30 @@
             	        <h2>LIEBLINGSSONGS</h2>
             	    </div>
             	</div>
+				<script>paintPlatten();</script>
 			</section>
 			<section id="about">
 				<div class="heading">
-                    <span href="#records">TOP RECORDS</span>
-                    <span href="#about" style="background:#fff;color:#000;">ABOUT US</span>
-                    <span href="#???">???</span>
-                    <span href="#contact">CONTACT US</span>
-                    <span href="#location">LOCATION</span>
+                    <span style="background:#fff;color:#000;">ABOUT US</span>
             	</div>
 				<div>
 					<img src="img/store.jpg"><p>Wir sind ein kleiner Schallplattenladen in Berlin-Schöneberg. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
+				<div class="persons">
+					<div>
+						<img src="https://pixabay.com/static/uploads/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png">
+					</div>
+					<div>
+						<img src="https://pixabay.com/static/uploads/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png">
+					</div>
+					<div>
+						<img src="https://pixabay.com/static/uploads/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png">
+					</div>
+				</div>
 			</section>
-			<section id="???">
+			<section id="lorem">
 				<div class="heading">
-                    <span href="#records">TOP RECORDS</span>
-                    <span href="#about">ABOUT US</span>
-                    <span href="#???" style="background:#fff;color:#000;">???</span>
-                    <span href="#contact">CONTACT US</span>
-                    <span href="#location">LOCATION</span>
+					<span style="background:#fff;color:#000;">LOREM IPSUM</span>
             	</div>
 				<div><p>Ubi fore ne sint ad nulla cernantur se deserunt, iudicem nulla id eiusmod
 					reprehenderit, senserit minim in proident exquisitaque, fabulas quis quorum
@@ -67,11 +73,7 @@
 			</section>
 			<section id="contact">
 				<div class="heading">
-                    <span href="#records">TOP RECORDS</span>
-                    <span href="#about">ABOUT US</span>
-                    <span href="#???">???</span>
-                    <span href="#contact" style="background:#fff;color:#000;">CONTACT US</span>
-                    <span href="#location">LOCATION</span>
+                    <span style="background:#fff;color:#000;">CONTACT US</span>
             	</div>
 				<div>Sie wollen uns eine Frage stellen, reservieren oder wegen etwas anderem mit uns sprechen? Hier sind unsere Kontaktdaten:</div>
 				<br>Telefon: 030/2151449
@@ -79,11 +81,7 @@
 			</section>
 			<section id="location">
 				<div class="heading">
-                    <span href="#records">TOP RECORDS</span>
-                    <span href="#about">ABOUT US</span>
-                    <span href="#???">???</span>
-                    <span href="#contact">CONTACT US</span>
-                    <span href="#location" style="background:#fff;color:#000;">LOCATION</span>
+                    <span style="background:#fff;color:#000;">LOCATION</span>
             	</div>
 				<div>
 					<p>Unser Laden befindet sich hier:<br>
@@ -106,6 +104,5 @@
                 </section>
             </footer>
         </main>
-        <script src="script.js"></script>
     </body>
 </html>

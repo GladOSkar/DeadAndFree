@@ -35,23 +35,33 @@ var database = {
     ]
 }
 
-var english = {
+var langen = {
 	records: "RECORDS",
 	about: "ABOUT US",
 	contact: "CONTACT",
 	location: "LOCATION",
-	abouttext: "We are a little Record Store in Berlin-Schöneberg. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+	gosearch: "Search our inventory...",
+	abouttext: "We are a little Record Store in Berlin-Schöneberg. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	contacttext: "You want to ask us a question, reservate or talk to us about something else? Here is our contact info:",
+	phone: "Phone: +49 - 30 - 2151449",
+	addresstext: "Our store is located here:",
+	go: "Go"
 }
 
-var german = {
+var langde = {
 	records: "PLATTEN",
 	about: "ÜBER UNS",
 	contact: "KONTAKT",
 	location: "LAGE",
-	abouttext: "Wir sind ein kleiner Schallplattenladen in Berlin-Schöneberg. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+	gosearch: "Durchsuchen Sie unser Inventar...",
+	abouttext: "Wir sind ein kleiner Schallplattenladen in Berlin-Schöneberg. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	contacttext: "Sie wollen uns eine Frage stellen, reservieren oder wegen etwas anderem mit uns sprechen? Hier sind unsere Kontaktdaten:",
+	phone: "Telefon: 030 - 2151449",
+	addresstext: "Unser Laden befindet sich hier:",
+	go: "Los"
 }
 
-var lang = english;
+var lang = window["lang"+window.navigator.language.slice(0,2)];
 
 function getOffset(el) {
     var _x = 0;
@@ -132,9 +142,23 @@ function getNavWidths() {
 	}
 }
 
+
+
+var navsticks = 0;
+
+window.onscroll = function() {
+	if ((window.pageYOffset > 413)&&(navsticks == 0)) {
+		document.querySelector("nav").classList.add("stickynav");
+		navsticks = 1;
+	} else if ((window.pageYOffset < 414)&&(navsticks == 1)) {
+		document.querySelector("nav").classList.remove("stickynav");
+		navsticks = 0;
+	};
+}
+
 function smoothScroll(did) {
 	var start = window.pageYOffset;
-	var dest = document.getElementById(did).offsetTop;
+	var dest = document.getElementById(did).offsetTop - 41;
 	if (dest > (document.body.offsetHeight - window.innerHeight)) {
 		dest = (document.body.offsetHeight - window.innerHeight)
 	}
@@ -142,7 +166,6 @@ function smoothScroll(did) {
 
 	var diff = (dest - start);
 
-	window.scrollTo(0,start);
 	var scroll = setInterval(function(){
 		prg += 0.02;
 		window.scrollTo(0,start+(easeinout(prg)*diff));
@@ -164,7 +187,6 @@ function updateCB(ele) {
 		if (args[0] == "lang") {
 			return lang[args[1]];
 		} else {
-
 		};
 	});
 }

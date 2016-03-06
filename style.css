@@ -13,6 +13,7 @@ body {
 }
 
 main {
+	position: relative;
     width: 800px;
     margin: auto;
     background: #fff;
@@ -59,15 +60,17 @@ nav {
 	justify-content: space-around;
 	align-items: stretch;
 	align-content: stretch;
-	width: 100%;
+	width: 800px;
     background: #000;
-    margin-left: 50%;
+    margin-left: 400px;
     height: 42px;
 	text-align: center;
     font-size: 20px;
+	color: #fff;
     transform: translateX(-50%);
-	padding-left: calc((100vw - 100%)/2);
-	padding-right: calc((100vw - 100%)/2);
+	padding-left: calc((100vw - 800px)/2);
+	padding-right: calc((100vw - 800px)/2);
+	z-index: 2000;
 }
 
 nav a {
@@ -86,6 +89,15 @@ nav a:hover, nav a:active {
     background: #fff;
     cursor: pointer;
 	color: #000;
+}
+
+nav.stickynav {
+	position: fixed;
+	top: 0px;
+}
+
+nav.stickynav + div {
+	height: 42px;
 }
 
 h2 {
@@ -257,4 +269,19 @@ img[src="img/store.jpg"] {
 	height: 90%;
 	width: 90%;
 	border-radius: 50%;
+}
+
+#searchbutton {
+	text-align: center;
+}
+
+#searchbutton > div {
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	width: auto;
+	margin: 20px auto 0px;
+	font-size: 24px;
+	padding: 20px;
+	cursor: pointer;
 }

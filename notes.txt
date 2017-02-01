@@ -3,3 +3,5 @@ https://api.discogs.com/releases/4899015
 http://www.onemusicapi.com/blog/2013/06/12/better-discogs-searching/
 https://www.discogs.com/settings/developers
 qqAsFGlhQbbvakkazzkTAqSvbIXcjSsEJVYIvmOp
+
+Padding nav.stickynav abhänging von media-queries implementieren

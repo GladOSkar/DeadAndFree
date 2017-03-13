@@ -1,0 +1,1 @@
+Close-Button bei scrollen fixen

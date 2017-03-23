@@ -16,7 +16,8 @@ var langen = {
 				The maybe less good news is:<br><br> \
 				We won’t be here forever (as a lot of people were assuming).<br><br> \
 				Sometime in early 2018 MR DEAD & MRS FREE will close this door forever after 35 years in business.<br><br> \
-				So come here while you can, there are lots of special offers and we are selling parts of our own collections, too.",
+				So come here while you can, there are lots of special offers and we are selling parts of our own collections, too.<br><br> \
+				We'll see you on Rocord Store Day!",
 	gosearch: "Search our inventory...",
 	newstuffpdf: "New in stock [pdf]",
 	abouttext: "MR DEAD & MRS FREE have been selling records for 34 years now.<br><br> \
@@ -48,7 +49,7 @@ var langde = {
 				Es wird uns doch nicht ewig geben…(was ja viele Leute gehofft haben).<br><br> \
 				Anfang 2018 werden MR DEAD & MRS FREE voraussichtlich nach 35 Jahren den Laden dichtmachen.<br><br> \
 				Also kommt her, solange wir noch da sind. Es gibt jede Menge Sonderangebote und wir verkaufen auch Teile unserer eigenen Sammlungen.<br><br> \
-				<i>Wer sich berufen fühlt und der Wohnungsgesellschaft ein „Konzept“ vorlegen möchte, möge uns gerne kontaktieren.</i>",
+				Wir sehen uns am Record Store Day!",
 	gosearch: "Durchsuchen Sie unser Lager...",
 	newstuffpdf: "Neuheiten im Sortiment [pdf]",
 	abouttext: "MR DEAD & MRS FREE verkaufen Schallplatten seit 34 Jahren.<br><br> \

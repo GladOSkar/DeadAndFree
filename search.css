@@ -26,11 +26,12 @@ main {
 	padding: 0;
 	vertical-align: middle;
 	line-height: 100vh;
+	box-shadow: 0 0 42px 0;
 	transition: all .4s ease-in-out;
 }
 
 #overlay.done {
-	top: -100vh;
+	top: -120vh;
 }
 
 #searchfield {

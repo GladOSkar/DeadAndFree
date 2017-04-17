@@ -10,8 +10,17 @@ var langen = {
 	favsongs: "OUR FAVORITE SONGS",
 	lang: "SEITE AUF DEUTSCH",
 	opening: "OPENING TIMES",
-	newsh: "WE'RE STILL HERE!",
-	newstext: "	And we have a new website!<br><br> \
+	newstext: "	<i>4/17/2017</i><br> \
+                <h2>RECORD STORE DAY 2017</h2> \
+                Same procedure as every year: <br> \
+                Record Store Day is upon us. <br><br> \
+                On <b>Sat 22nd of April 2017</b>, we will sell records that the world does not need, but some of you probably want anyway... <br><br> \
+                So come by & enjoy our guest: <br> \
+                <b>The Black Elephant Band</b> plays at <b>3 PM</b>. <br><br> \
+                <img src=\"img/elephant_band.jpg\"></img> <br><br><br><br> \
+                <i>3/20/2017</i><br> \
+                <h2>WE'RE STILL HERE!</h2> \
+                And we have a new website!<br><br> \
 				That’s the good news.<br><br> \
 				The maybe less good news is:<br><br> \
 				We won’t be here forever (as a lot of people were assuming).<br><br> \
@@ -42,8 +51,16 @@ var langde = {
 	favsongs: "UNSERE LIEBLINGSSONGS",
 	lang: "PAGE IN ENGLISH",
 	opening: "ÖFFUNGSZEITEN",
-	newsh: "ES GIBT UNS NOCH!",
-	newstext: "	Und wir haben wieder eine Webseite!!<br><br> \
+	newstext: "	<i>17.4.2017</i><br> \
+                <h2>RECORD STORE DAY 2017</h2> \
+                Alle Jahre wieder: Am <b>22.4.2017</b> ist Record Store Day: <br><br> \
+                Platten, die die Welt nicht braucht zu Preisen, für die wir uns schämen. <br><br> \
+                Lasst uns trotzdem einen schönen Tag mit guter Musik haben. <br><br> \
+                Wir freuen uns auf Euch und um <b>15 Uhr</b> spielt: <br><br> \
+                <img src=\"img/elephant_band.jpg\"></img> <br><br><br><br> \
+                <i>20.3.2017</i><br> \
+                <h2>ES GIBT UNS NOCH!</h2> \
+                Und wir haben wieder eine Webseite!!<br><br> \
 				Das ist die gute Nachricht.<br><br> \
 				Die vielleicht nicht ganz so gute:<br><br> \
 				Es wird uns doch nicht ewig geben…(was ja viele Leute gehofft haben).<br><br> \

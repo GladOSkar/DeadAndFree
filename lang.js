@@ -10,23 +10,14 @@ var langen = {
 	favsongs: "OUR FAVORITE SONGS",
 	lang: "SEITE AUF DEUTSCH",
 	opening: "OPENING TIMES",
-	newstext: "	<i>4/17/2017</i><br> \
-                <h2>RECORD STORE DAY 2017</h2> \
-                Same procedure as every year: <br> \
-                Record Store Day is upon us. <br><br> \
-                On <b>Sat 22nd of April 2017</b>, we will sell records that the world does not need, but some of you probably want anyway... <br><br> \
-                So come by & enjoy our guest: <br> \
-                <b>The Black Elephant Band</b> plays at <b>3 PM</b>. <br><br> \
-                <img src=\"img/elephant_band.jpg\"></img> <br><br><br><br> \
-                <i>3/20/2017</i><br> \
+	newstext: "	<i>3/20/2017</i><br> \
                 <h2>WE'RE STILL HERE!</h2> \
                 And we have a new website!<br><br> \
 				That’s the good news.<br><br> \
 				The maybe less good news is:<br><br> \
 				We won’t be here forever (as a lot of people were assuming).<br><br> \
 				Sometime in early 2018 MR DEAD & MRS FREE will close this door forever after 35 years in business.<br><br> \
-				So come here while you can, there are lots of special offers and we are selling parts of our own collections, too.<br><br> \
-				We'll see you on Rocord Store Day!",
+				So come here while you can, there are lots of special offers and we are selling parts of our own collections, too.",
 	gosearch: "Search our inventory...",
 	newstuffpdf: "New in stock [pdf]",
 	abouttext: "MR DEAD & MRS FREE have been selling records for 34 years now.<br><br> \
@@ -51,22 +42,13 @@ var langde = {
 	favsongs: "UNSERE LIEBLINGSSONGS",
 	lang: "PAGE IN ENGLISH",
 	opening: "ÖFFUNGSZEITEN",
-	newstext: "	<i>17.4.2017</i><br> \
-                <h2>RECORD STORE DAY 2017</h2> \
-                Alle Jahre wieder: Am <b>22.4.2017</b> ist Record Store Day: <br><br> \
-                Platten, die die Welt nicht braucht zu Preisen, für die wir uns schämen. <br><br> \
-                Lasst uns trotzdem einen schönen Tag mit guter Musik haben. <br><br> \
-                Wir freuen uns auf Euch und um <b>15 Uhr</b> spielt: <br><br> \
-                <img src=\"img/elephant_band.jpg\"></img> <br><br><br><br> \
-                <i>20.3.2017</i><br> \
-                <h2>ES GIBT UNS NOCH!</h2> \
+	newstext: "	<h2>ES GIBT UNS NOCH!</h2> \
                 Und wir haben wieder eine Webseite!!<br><br> \
 				Das ist die gute Nachricht.<br><br> \
 				Die vielleicht nicht ganz so gute:<br><br> \
 				Es wird uns doch nicht ewig geben…(was ja viele Leute gehofft haben).<br><br> \
 				Anfang 2018 werden MR DEAD & MRS FREE voraussichtlich nach 35 Jahren den Laden dichtmachen.<br><br> \
-				Also kommt her, solange wir noch da sind. Es gibt jede Menge Sonderangebote und wir verkaufen auch Teile unserer eigenen Sammlungen.<br><br> \
-				Wir sehen uns am Record Store Day!",
+				Also kommt her, solange wir noch da sind. Es gibt jede Menge Sonderangebote und wir verkaufen auch Teile unserer eigenen Sammlungen.",
 	gosearch: "Durchsuchen Sie unser Lager...",
 	newstuffpdf: "Neuheiten im Sortiment [pdf]",
 	abouttext: "MR DEAD & MRS FREE verkaufen Schallplatten seit 34 Jahren.<br><br> \

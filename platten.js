@@ -1,17 +1,17 @@
 var database = {
 	"lieblingsplatten": [
 		{
-			"url": "img/AlbumArt/sampha.png",
-			"artist": "Sampha",
-			"album": "Process",
+			"url": "img/AlbumArt/valeriejune.png",
+			"artist": "Valerie June",
+			"album": "Order Of Time",
 			"text": "",
-			"vid": "https://www.youtube.com/embed/_NSuIYwBxu4"
+			"vid": "https://www.youtube.com/embed/rN35g4eLQgg"
 		},
 		{
 			"url": "img/AlbumArt/fink.png",
 			"artist": "Fink",
 			"album": "Fink's Sunday Night Blues Club, Vol. 1",
-			"text": "In Vinyl leider erst ab dem 14.4.2017 erhältlich",
+			"text": "Jetzt auch als Vinyl erhältlich!",
 			"vid": "https://www.youtube.com/embed/j63QBuIA4wM"
 		},
 		{
@@ -29,11 +29,11 @@ var database = {
 			"vid": "https://www.youtube.com/embed/aMZ4QL0orw0"
 		},
 		{
-			"url": "img/AlbumArt/leonardcohen.png",
-			"artist": "Leonard Cohen",
-			"album": "You Want It Darker",
+			"url": "img/AlbumArt/jebloynichols.png",
+			"artist": "Jeb Loy Nichols",
+			"album": "Country Hustle",
 			"text": "",
-			"vid": "https://www.youtube.com/embed/v0nmHymgM7Y"
+			"vid": "https://www.youtube.com/embed/HRO_eXX6zpY"
 		},
 		{
 			"url": "img/AlbumArt/lutherdickinson.png",

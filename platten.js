@@ -1,6 +1,34 @@
 var database = {
 	"lieblingsplatten": [
 		{
+			"url": "img/AlbumArt/fink.png",
+			"artist": "Fink",
+			"album": "Resurgam",
+			"text": "",
+			"vid": "https://www.youtube.com/embed/zy31vJQPPk0"
+		},
+		{
+			"url": "img/AlbumArt/kittydaisyandlewis.png",
+			"artist": "Kitty, Daisy & Lewis",
+			"album": "Superscope",
+			"text": "",
+			"vid": "https://www.youtube.com/embed/jD86aRsJ1N0"
+		},
+		{
+			"url": "img/AlbumArt/eilenjewell.png",
+			"artist": "Eilen Jewell",
+			"album": "Down Hearted Blues",
+			"text": "",
+			"vid": "https://www.youtube.com/embed/beN3Isqxgyk"
+		},
+		{
+			"url": "img/AlbumArt/kacyandclayton.png",
+			"artist": "Kacy & Clayton",
+			"album": "The Siren's Song",
+			"text": "",
+			"vid": "https://www.youtube.com/embed/BinJg3urQDU"
+		},
+		{
 			"url": "img/AlbumArt/valeriejune.png",
 			"artist": "Valerie June",
 			"album": "Order Of Time",
@@ -8,39 +36,11 @@ var database = {
 			"vid": "https://www.youtube.com/embed/rN35g4eLQgg"
 		},
 		{
-			"url": "img/AlbumArt/fink.png",
-			"artist": "Fink",
-			"album": "Fink's Sunday Night Blues Club, Vol. 1",
-			"text": "Jetzt auch als Vinyl erhältlich!",
-			"vid": "https://www.youtube.com/embed/j63QBuIA4wM"
-		},
-		{
-			"url": "img/AlbumArt/nikkilane.png",
-			"artist": "Nikki Lane",
-			"album": "Highway Queen",
-			"text": "",
-			"vid": "https://www.youtube.com/embed/zcvQL8_ZP20"
-		},
-		{
-			"url": "img/AlbumArt/michaelkiwanuka.png",
-			"artist": "Michael Kiwanuka",
-			"album": "Love And Hate",
-			"text": "",
-			"vid": "https://www.youtube.com/embed/aMZ4QL0orw0"
-		},
-		{
 			"url": "img/AlbumArt/jebloynichols.png",
 			"artist": "Jeb Loy Nichols",
 			"album": "Country Hustle",
 			"text": "",
 			"vid": "https://www.youtube.com/embed/HRO_eXX6zpY"
-		},
-		{
-			"url": "img/AlbumArt/lutherdickinson.png",
-			"artist": "Luther Dickinson",
-			"album": "Blues & Ballads (A Folksinger's Songbook)",
-			"text": "",
-			"vid": "https://www.youtube.com/embed/8KWk-Dso3HA"
 		}
 	],
 	"lieblingssongs": [

@@ -50,7 +50,11 @@ var langde = {
 				Die vielleicht nicht ganz so gute:<br><br> \
 				Es wird uns doch nicht ewig geben... (was ja viele Leute gehofft haben).<br><br> \
 				Anfang 2018 werden MR DEAD & MRS FREE voraussichtlich nach 35 Jahren den Laden dichtmachen.<br><br> \
-				Also kommt her, solange wir noch da sind. Es gibt jede Menge Sonderangebote und wir verkaufen auch Teile unserer eigenen Sammlungen.",
+				Also kommt her, solange wir noch da sind. Es gibt jede Menge Sonderangebote und wir verkaufen auch Teile unserer eigenen Sammlungen.<br><br> \
+				<h2>~</h2> \
+				<h2>Liebe Kunden</h2> \
+				weil Ihr uns jetzt am Wochenende immer die Bude einrennt, und weil bald Weihnachten ist, verlängern wir unsere Öffnungszeiten:<br><br> \
+				Am <b>Samstag</b> ist ab <b>Dezember</b> immer bis <b>18 Uhr</b> geöffnet.",
 	gosearch: "Durchsuchen Sie unser Lager...",
 	newstuffpdf: "Neuheiten im Sortiment [pdf]",
 	treasures: "Schätze von denen wir uns trennen [pdf]",

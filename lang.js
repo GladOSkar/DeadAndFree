@@ -17,7 +17,13 @@ var langen = {
 				The maybe less good news is:<br><br> \
 				We won’t be here forever (as a lot of people were assuming).<br><br> \
 				Sometime in early 2018 MR DEAD & MRS FREE will close this door forever after 35 years in business.<br><br> \
-				So come here while you can, there are lots of special offers and we are selling parts of our own collections, too.",
+				So come here while you can, there are lots of special offers and we are selling parts of our own collections, too.<br><br> \
+				<h2>~</h2> \
+				<i>11/12/2017</i><br> \
+				<h2>Relax</h2> \
+				We will still be here in January.<br><br> \
+				Our last day of business will be <b>February 3rd, 2018</b>.<br><br> \
+				So there’s still time to browse through our collections.",
 	gosearch: "Search our inventory...",
 	newstuffpdf: "New in stock [pdf]",
 	treasures: "Treasures of which we part [pdf]",
@@ -44,7 +50,8 @@ var langde = {
 	favsongs: "UNSERE LIEBLINGSSONGS",
 	lang: "PAGE IN ENGLISH",
 	opening: "ÖFFUNGSZEITEN",
-	newstext: "	<h2>ES GIBT UNS NOCH!</h2> \
+	newstext: "	<i>20.3.2017</i><br> \
+				<h2>ES GIBT UNS NOCH!</h2> \
                 Und wir haben wieder eine Webseite!!<br><br> \
 				Das ist die gute Nachricht.<br><br> \
 				Die vielleicht nicht ganz so gute:<br><br> \
@@ -52,9 +59,16 @@ var langde = {
 				Anfang 2018 werden MR DEAD & MRS FREE voraussichtlich nach 35 Jahren den Laden dichtmachen.<br><br> \
 				Also kommt her, solange wir noch da sind. Es gibt jede Menge Sonderangebote und wir verkaufen auch Teile unserer eigenen Sammlungen.<br><br> \
 				<h2>~</h2> \
+				<i>18.11.2017</i><br> \
 				<h2>Liebe Kunden</h2> \
 				weil Ihr uns jetzt am Wochenende immer die Bude einrennt, und weil bald Weihnachten ist, verlängern wir unsere Öffnungszeiten:<br><br> \
-				Am <b>Samstag</b> ist ab <b>Dezember</b> immer bis <b>18 Uhr</b> geöffnet.",
+				Am <b>Samstag</b> ist ab <b>Dezember</b> immer bis <b>18 Uhr</b> geöffnet.<br><br> \
+				<h2>~</h2> \
+				<i>11.12.2017</i><br> \
+				<h2>Keine Panik!</h2> \
+				Wir sind noch bis zum <b>3.2.2018</b> für Euch da.<br><br> \
+				Wir freuen uns natürlich auch jetzt schon über Eure Geschenke + all das liebende Angedenken.<br><br> \
+				Aber ein bisschen Zeit hat’s noch...",
 	gosearch: "Durchsuchen Sie unser Lager...",
 	newstuffpdf: "Neuheiten im Sortiment [pdf]",
 	treasures: "Schätze von denen wir uns trennen [pdf]",
